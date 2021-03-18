@@ -1,0 +1,23 @@
+{
+	title: "Early Power",
+	x: -9.5d,
+	y: 0.0d,
+	text: [
+		"Initial energy gen can be had with a Simple Combustion generator. Put this next to the Forge converter to get EU for GTCE machines.",
+		"",
+		"These machines can last a while but eventually EU requirements will outstrip, and this modpack does not include any energy conduits,",
+		"so plan on switching to GTCE and Gregicality energy generation in the future."
+	],
+	tasks: [{
+		uid: "5e6d5fa0",
+		type: "item",
+		items: [{
+			item: "simplegenerators:combustion_simple"
+		}]
+	}],
+	rewards: [{
+		uid: "131c117e",
+		type: "item",
+		item: "gregtech:machine 1 2915"
+	}]
+}

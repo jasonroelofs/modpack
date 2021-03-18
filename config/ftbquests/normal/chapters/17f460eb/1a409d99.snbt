@@ -1,0 +1,37 @@
+{
+	title: "All the Clay",
+	x: -9.5d,
+	y: -1.5d,
+	text: [
+		"Lets get the \"clay\" thing out of the way. You will need steel, a lot of it. So here's the furnace."
+	],
+	tasks: [{
+		uid: "92da9137",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "192542ab",
+		type: "item",
+		item: "gregtech:metal_casing 1 1",
+		count: 32
+	},
+	{
+		uid: "b628ef7a",
+		type: "item",
+		item: "gregtech:machine 1 2553"
+	},
+	{
+		uid: "3607ae8d",
+		type: "item",
+		item: "gregtech:machine 1 710"
+	},
+	{
+		uid: "86858cdb",
+		type: "item",
+		item: "gregtech:machine 1 711"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -12.0d,
+	y: -3.0d,
+	text: [
+		"This modpack is an exploration of GregTech Community Edition (GTCE) and Gregicality.",
+		"",
+		"Now if you are aware of GregTech, you'll know that everything has more steps which leads to massive factories automating tons of materials,",
+		"which is fun! However, the early game, Steam and the lack of auto crafting, isn't. So this pack is configured to get you through the early game",
+		"and into a fully functional AE system ASAP.",
+		"",
+		"Also, while this pack does use GTCE ore generation, we also include a scanner (see next quest) to help mark ore veins for easier access.",
+		"",
+		"Lets get started!"
+	],
+	tasks: [{
+		uid: "9eb52bf2",
+		type: "checkmark",
+		title: "Gregicality!"
+	}]
+}

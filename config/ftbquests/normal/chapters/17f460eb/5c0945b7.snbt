@@ -1,0 +1,93 @@
+{
+	title: "Getting Started",
+	x: -9.5d,
+	y: -3.0d,
+	text: [
+		"Welcome! We are going to assume you know what you're doing. Punch some wood, lets get this moving.",
+		"",
+		"The scanner is configured to find GTCE ore veins, which are large, multi-chunk mixes of different types. Open the scanner with shift-right-click",
+		"and install the modules. The two range modules will ensure you can scan to bedrock from the surface."
+	],
+	tasks: [{
+		uid: "ae54cd42",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7113c509",
+		type: "item",
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 5s,
+					id: 32s
+				}]
+			}
+		}
+	},
+	{
+		uid: "c38a5002",
+		type: "item",
+		item: "minecraft:diamond_shovel"
+	},
+	{
+		uid: "af5c113e",
+		type: "item",
+		item: "minecraft:diamond_axe"
+	},
+	{
+		uid: "06b17e76",
+		type: "item",
+		item: {
+			id: "scannable:scanner",
+			tag: {
+				energy: 500000
+			}
+		}
+	},
+	{
+		uid: "7335ea4c",
+		type: "item",
+		item: "scannable:module_range"
+	},
+	{
+		uid: "274f66c5",
+		type: "item",
+		item: "scannable:module_range"
+	},
+	{
+		uid: "4b3ec7d9",
+		type: "item",
+		item: "scannable:module_ore_common"
+	},
+	{
+		uid: "4e2ccbe4",
+		type: "item",
+		item: "scannable:module_ore_rare"
+	},
+	{
+		uid: "30ba3006",
+		type: "item",
+		item: "minecraft:torch",
+		count: 64
+	}]
+}
