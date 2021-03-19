@@ -194,5 +194,10 @@
 			}
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "742e44fb",
+		type: "item",
+		item: "gregtech:machine 1 825"
 	}]
 }

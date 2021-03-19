@@ -28,31 +28,21 @@
 		count: 8L
 	}],
 	rewards: [{
-		uid: "7113c509",
+		uid: "af5c113e",
 		type: "item",
 		item: {
-			id: "minecraft:diamond_pickaxe",
+			id: "vanillatools:tool.hammer_diamond",
 			tag: {
 				ench: [{
 					lvl: 3s,
-					id: 34s
+					id: 32s
 				},
 				{
-					lvl: 5s,
-					id: 32s
+					lvl: 3s,
+					id: 34s
 				}]
 			}
 		}
-	},
-	{
-		uid: "c38a5002",
-		type: "item",
-		item: "minecraft:diamond_shovel"
-	},
-	{
-		uid: "af5c113e",
-		type: "item",
-		item: "minecraft:diamond_axe"
 	},
 	{
 		uid: "06b17e76",

@@ -1,6 +1,6 @@
 {
 	title: "Early Power",
-	x: -9.5d,
+	x: -11.0d,
 	y: 0.0d,
 	text: [
 		"Initial energy gen can be had with a Simple Combustion generator. Put this next to the Forge converter to get EU for GTCE machines.",
@@ -18,6 +18,6 @@
 	rewards: [{
 		uid: "131c117e",
 		type: "item",
-		item: "gregtech:machine 1 2915"
+		item: "gregtech:machine 1 2911"
 	}]
 }

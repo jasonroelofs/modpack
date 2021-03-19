@@ -1,0 +1,40 @@
+{
+	x: -9.5d,
+	y: 0.0d,
+	text: [
+		"Now you need some cables from the energy converter to connect to machines. We will skip some steps here, find tin and wool and you'll get the rest!"
+	],
+	tasks: [{
+		uid: "5c299c31",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10071"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d53ec60e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockWool",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockWool"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "716b3942",
+		type: "item",
+		item: "gregtech:cable 1 7071",
+		count: 8
+	}]
+}
