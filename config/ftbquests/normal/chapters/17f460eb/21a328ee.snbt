@@ -1,0 +1,127 @@
+{
+	title: "Your Starter AE2 System",
+	x: -5.0d,
+	y: -3.0d,
+	text: [
+		"Getting this set up yet again is tedius and boring. Here's the full set."
+	],
+	tasks: [{
+		uid: "fe29ecd3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "e92aa708",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "0b729fb4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "a7746465",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "f521b74b",
+		type: "item",
+		item: "appliedenergistics2:energy_acceptor"
+	},
+	{
+		uid: "d48be43f",
+		type: "item",
+		item: "appliedenergistics2:drive"
+	},
+	{
+		uid: "c8037fc8",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
+	},
+	{
+		uid: "b8e00f3d",
+		type: "item",
+		item: "appliedenergistics2:interface",
+		count: 16
+	},
+	{
+		uid: "ff6594d9",
+		type: "item",
+		item: "appliedenergistics2:crafting_accelerator"
+	},
+	{
+		uid: "47b09227",
+		type: "item",
+		item: "appliedenergistics2:crafting_storage_1k"
+	},
+	{
+		uid: "a05f01cd",
+		type: "item",
+		item: "appliedenergistics2:part 1 16",
+		count: 64
+	},
+	{
+		uid: "f89692a9",
+		type: "item",
+		item: "ae2stuff:grower"
+	},
+	{
+		uid: "5aefea1f",
+		type: "item",
+		item: "ae2stuff:inscriber",
+		count: 4
+	},
+	{
+		uid: "10389c4c",
+		type: "item",
+		item: "appliedenergistics2:charger"
+	},
+	{
+		uid: "7ac2c674",
+		type: "item",
+		item: "appliedenergistics2:part 1 360"
+	},
+	{
+		uid: "e740e80c",
+		type: "item",
+		item: "appliedenergistics2:part 1 340"
+	},
+	{
+		uid: "355a03fa",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 32
+	},
+	{
+		uid: "a005d975",
+		type: "item",
+		item: "appliedenergistics2:molecular_assembler",
+		count: 4
+	},
+	{
+		uid: "01272cc1",
+		type: "item",
+		item: "appliedenergistics2:part 1 480"
+	},
+	{
+		uid: "8bd22c9f",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:energy_cell",
+			tag: {}
+		}
+	}]
+}

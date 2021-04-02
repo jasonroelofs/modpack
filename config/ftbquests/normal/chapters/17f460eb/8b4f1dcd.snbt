@@ -8,16 +8,14 @@
 		"These machines can last a while but eventually EU requirements will outstrip, and this modpack does not include any energy conduits,",
 		"so plan on switching to GTCE and Gregicality energy generation in the future."
 	],
-	tasks: [{
-		uid: "5e6d5fa0",
-		type: "item",
-		items: [{
-			item: "simplegenerators:combustion_simple"
-		}]
-	}],
 	rewards: [{
 		uid: "131c117e",
 		type: "item",
 		item: "gregtech:machine 1 2911"
+	},
+	{
+		uid: "a7bfc9ec",
+		type: "item",
+		item: "solarflux:solar_panel_5"
 	}]
 }
